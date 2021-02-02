@@ -25,3 +25,11 @@
 
 Note: In the Apple macOS operating system, **.DS_Store** is a file that stores custom attributes of its containing folder, such as the position of icons or the choice of a background image.
 
+
+
+## [Git] - Print out log infomation in one line
+
+```bash
+git log --pretty=oneline --abbrev-commit
+```
+
