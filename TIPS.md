@@ -15,7 +15,7 @@
 
 3. `Git add` & `Git commit`.
 
-   ```
+   ```bash
    git add .
    
    git commit -m "chore: remove .DS_Store files"
@@ -31,5 +31,21 @@ Note: In the Apple macOS operating system, **.DS_Store** is a file that stores c
 
 ```bash
 git log --pretty=oneline --abbrev-commit
+```
+
+
+
+Note: `--abbrev-commit` would make git log hash become shorter.
+
+
+
+## [Bash] - Find resources in current directory
+
+```bash
+## find by file name
+find . -print | grep -i someFileName.java
+
+## find by key words with grep
+grep -rn search-string search-dir
 ```
 
