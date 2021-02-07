@@ -53,10 +53,34 @@ grep -rn search-string search-dir
 
 ## [PM2] - Most frquently used commands
 
-```js
+```bash
 Globally Installed: npm install -g pm2
 
-### After entering into root directory:
+## After entering into root directory:
 Restart application/process: pm2 start bin/www or pm2 start app.js
+
+Rename application/process: pm2 start app.js --name web123
+
+Add application to watch: pm2 start bin/www --watch
+
+End application/process: pm2 stop www
+
+End all the applications/processes: pm2 stop all
+
+Delete all the applications/processes: pm2 delete all
+
+List all the applications/processes: pm2 list
+
+Check application status: pm2 describe www
+
+Check application resource usages: pm2 monit
+
+Check application logs: pm2 logs
+
+Check specified application logs: pm2 logs www
+
+Restart application: pm2 restart www
+
+Restart all the applications: pm2 restart all
 ```
 
