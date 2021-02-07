@@ -49,3 +49,14 @@ find . -print | grep -i someFileName.java
 grep -rn search-string search-dir
 ```
 
+
+
+## [PM2] - Most frquently used commands
+
+```js
+Globally Installed: npm install -g pm2
+
+### After entering into root directory:
+Restart application/process: pm2 start bin/www or pm2 start app.js
+```
+
