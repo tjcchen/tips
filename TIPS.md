@@ -93,10 +93,21 @@ Restart all the applications: pm2 restart all
 Curl is a command-line tool for transferring data specified with URL syntax. For more information, please also refer to this link: https://github.com/curl/curl
 
 ```bash
+## GET simple
+curl -X GET https://www.baidu.com
+or
+curl https://www.baidu.com
+
 ## POST application/x-www-form-urlencoded
 curl -d "param1=value1&param2=value2" -X POST http://localhost:3000/data
 
 ## POST with a data file
 curl -d "@data.txt" -X POST http://localhost:3000/data
+
+## POST with application/json
+curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data
+
+## POST with a data file
+curl -d "@data.json" -X POST http://localhost:3000/data
 ```
 
