@@ -53,6 +53,8 @@ grep -rn search-string search-dir
 
 ## [PM2] - Most frquently used commands
 
+PM2 is a daemon process manager that will help you manage and keep your application online 24/7. For more information, please also refer to: https://pm2.keymetrics.io/
+
 ```bash
 Globally Installed: npm install -g pm2
 
