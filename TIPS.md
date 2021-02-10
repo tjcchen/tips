@@ -51,7 +51,7 @@ grep -rn search-string search-dir
 
 
 
-## [PM2] - Most frquently used commands
+## [Pm2] - Most frquently used commands
 
 PM2 is a daemon process manager that will help you manage and keep your application online 24/7. For more information, please also refer to: https://pm2.keymetrics.io/
 
@@ -84,5 +84,19 @@ Check specified application logs: pm2 logs www
 Restart application: pm2 restart www
 
 Restart all the applications: pm2 restart all
+```
+
+
+
+## [Curl] - Most frequently used commands
+
+Curl is a command-line tool for transferring data specified with URL syntax. For more information, please also refer to this link: https://github.com/curl/curl
+
+```bash
+## POST application/x-www-form-urlencoded
+curl -d "param1=value1&param2=value2" -X POST http://localhost:3000/data
+
+## POST with a data file
+curl -d "@data.txt" -X POST http://localhost:3000/data
 ```
 
