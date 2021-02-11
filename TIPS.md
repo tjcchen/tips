@@ -92,6 +92,14 @@ Restart all the applications: pm2 restart all
 
 Curl is a command-line tool for transferring data specified with URL syntax. For more information, please also refer to this link: https://github.com/curl/curl
 
+Curl parameters meaning explained:
+
+`-d, --data <data>` Send specified data in POST request.
+
+`-H, --header <header>` Headers to supply with request.
+
+`-X, --request` The request method to use. Request method could be GET, POST, PUT, DELETE, OPTIONS etc.
+
 ```bash
 ## GET simple
 curl -X GET https://www.baidu.com
