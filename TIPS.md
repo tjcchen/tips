@@ -98,7 +98,7 @@ Curl parameters meaning explained:
 
 `-H, --header <header>` Headers to supply with request.
 
-`-X, --request` The request method to use. Request method could be GET, POST, PUT, DELETE, OPTIONS etc.
+`-X, --request` The request method to use. Request methods could be GET, POST, PUT, DELETE, OPTIONS etc.
 
 ```bash
 ## GET simple
@@ -106,7 +106,7 @@ curl -X GET https://www.baidu.com
 or
 curl https://www.baidu.com
 
-## POST application/x-www-form-urlencoded
+## POST application/x-www-form-urlencoded( default )
 curl -d "param1=value1&param2=value2" -X POST http://localhost:3000/data
 
 ## POST with a data file
