@@ -5,4 +5,4 @@ A repository for recording useful tips!
 TIPS: https://github.com/tjcchen/tips/blob/main/TIPS.md
 
 ## LICENSE
-[MIT](https://github.com/tjcchen/tips/blob/main/LICENSE)
+This project is licensed under the terms of the MIT License.
