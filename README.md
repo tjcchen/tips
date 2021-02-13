@@ -1,8 +1,8 @@
-## TIPS
+## Tips
 A repository for recording useful tips!
 
-## LINKS
+## Links
 TIPS: https://github.com/tjcchen/tips/blob/main/TIPS.md
 
-## LICENSE
+## License
 This project is licensed under the terms of the MIT License.
