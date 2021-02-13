@@ -27,6 +27,21 @@ Note: In the Apple macOS operating system, **.DS_Store** is a file that stores c
 
 
 
+## [Git] - Remove node_modules from git
+
+1. Add a `.gitignore` file.
+2. Add `node_modules/` config to `.gitignore` file.
+3. Run the following commands in Terminal:
+
+```bash
+- git rm -r --cached .
+- git add .
+- git commit -m "chore: add node_modules config to gitignore file"
+- git push
+```
+
+
+
 ## [Git] - Print out log infomation in one line
 
 ```bash
