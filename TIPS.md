@@ -115,6 +115,8 @@ Curl parameters meaning explained:
 
 `-X, --request` The request method to use. Request methods could be GET, POST, PUT, DELETE, OPTIONS etc.
 
+`-s, --slient` Slient mode. The command will not print out anything to the command line.
+
 ```bash
 ## GET simple
 curl -X GET https://www.baidu.com
