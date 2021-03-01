@@ -136,3 +136,12 @@ curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json"
 curl -d "@data.json" -X POST http://localhost:3000/data
 ```
 
+## [Linux] - Add global alias command
+Take `ll` as a example:
+```bash
+# edit ./bash_profile file
+vi ~/.bash_profile
+
+# add the following line of code
+alias ll='ls -l'
+```
