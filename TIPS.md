@@ -134,3 +134,9 @@ curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json"
 curl -d "@data.json" -X POST http://localhost:3000/data
 ```
 
+## [Linux] - Add & remove writable permission
+```bash
+add: chmod u+w file_name
+
+remove: chmod u-w file_name
+```
