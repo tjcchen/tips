@@ -115,6 +115,8 @@ Curl parameters meaning explained:
 
 `-X, --request` The request method to use. Request methods could be GET, POST, PUT, DELETE, OPTIONS etc.
 
+`-s, --slient` Slient mode. The command will not print out anything to the command line.
+
 ```bash
 ## GET simple
 curl -X GET https://www.baidu.com
@@ -134,9 +136,21 @@ curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json"
 curl -d "@data.json" -X POST http://localhost:3000/data
 ```
 
+
 ## [Linux] - Add & remove writable permission
 ```bash
 add: chmod u+w file_name
 
 remove: chmod u-w file_name
+```
+
+
+## [Linux] - Add global alias command
+Take `ll` as a example:
+```bash
+# edit ./bash_profile file
+vi ~/.bash_profile
+
+# add the following line of code
+alias ll='ls -l'
 ```
