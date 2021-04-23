@@ -154,3 +154,8 @@ vi ~/.bash_profile
 # add the following line of code
 alias ll='ls -l'
 ```
+
+## [Linux] - Close Chrome CORS
+```
+open -n /Applications/Google\ Chrome.app/ --args --disable-web-security --user-data-dir=/Users/chen/Documents/MyChromeDevUserData/
+```
