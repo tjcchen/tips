@@ -53,6 +53,12 @@ git log --pretty=oneline --abbrev-commit
 Note: `--abbrev-commit` would make git log hash become shorter.
 
 
+## [Git] - Undo last commit with reset
+```bash
+# The last commit will be removed from your Git history.
+git reset --soft HEAD~1
+```
+
 
 ## [Bash] - Find resources in current directory
 
