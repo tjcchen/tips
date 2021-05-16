@@ -174,3 +174,18 @@ ps aux | grep node
 # kill process by ID( second from the left )
 kill -9 PROCESS_ID
 ```
+
+## [Linux] - Put process into background
+```bash
+# List all the process
+screen -ls
+
+# Create a process with name specified
+screen -s name, eg: screen -s ftp or screen -s website
+
+# Enter into a process/background with name specified
+screen -r -d 1805
+
+# Detach from a process/background
+ctrl a + d
+```
