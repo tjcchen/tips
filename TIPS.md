@@ -165,3 +165,12 @@ alias ll='ls -l'
 ```
 open -n /Applications/Google\ Chrome.app/ --args --disable-web-security --user-data-dir=/Users/chen/Documents/MyChromeDevUserData/
 ```
+
+## [Linux] - Check and close a process, take node as an example
+```bash
+# eg: find exist node process
+ps aux | grep node
+
+# kill process by ID( second from the left )
+kill -9 PROCESS_ID
+```
