@@ -58,7 +58,10 @@ Note: `--abbrev-commit` would make git log hash become shorter.
 # The last commit will be removed from your Git history.
 git reset --soft HEAD~1
 ```
-
+## [Git] - Revert a single file
+```bash
+git checkout c5f567~1 -- file1/to/restore file2/to/restore
+```
 
 ## [Bash] - Find resources in current directory
 
