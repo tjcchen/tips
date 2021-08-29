@@ -25,6 +25,16 @@
 
 Note: In the Apple macOS operating system, **.DS_Store** is a file that stores custom attributes of its containing folder, such as the position of icons or the choice of a background image.
 
+## [Git] - Remove git branch locally & remotely
+```bash
+Locally: 
+git branch -D branch_name | git branch -D <branch_name>
+git branch -d branch_name | git branch -d <branch_name>
+
+Remotely:
+git push -d origin branch_name | git push -d <remote_name> <branch_name>
+
+````
 
 
 ## [Git] - Remove node_modules from git
