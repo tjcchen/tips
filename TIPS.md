@@ -202,3 +202,8 @@ screen -r -d 1805
 # Detach from a process/background
 ctrl a + d
 ```
+
+## [Linux] - replace old string with new string
+```bash
+grep "oldString" -rl dist-h5/dist | xargs sed -i "" -e "s/oldString/newString/g" 
+```
