@@ -208,7 +208,7 @@ ctrl a + d
 grep "oldString" -rl dist-h5/dist | xargs sed -i "" -e "s/oldString/newString/g" 
 ```
 
-## [mongo] - login to mongoDB with shell
+## [Mongo] - login to mongoDB with shell
 ```bash
 mongo host:port/dbname -u username -p password
 ```
