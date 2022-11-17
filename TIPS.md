@@ -212,3 +212,10 @@ grep "oldString" -rl dist-h5/dist | xargs sed -i "" -e "s/oldString/newString/g"
 ```bash
 mongo host:port/dbname -u username -p password
 ```
+
+## [Linux] - check linux & mac processes, and then kill a specific process
+```bash
+ps -ef | grep processName
+kill -9 processId
+```
+
