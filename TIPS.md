@@ -219,3 +219,11 @@ ps -ef | grep processName
 kill -9 processId
 ```
 
+## [Linux] - install node with nvm
+```bash
+# list remote versions
+nvm list-remote
+
+# install a specific node version
+nvm install <version> # like: 14.17.6
+```
