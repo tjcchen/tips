@@ -73,6 +73,15 @@ git reset --soft HEAD~1
 git checkout c5f567~1 -- file1/to/restore file2/to/restore
 ```
 
+## [Git] - Update remote origin
+```
+# solution 1: update remote origin
+git remote set-url origin new.git.url/here
+
+# solution2:
+# Edit .git/config and change the URLs there.
+```
+
 ## [Bash] - Find resources in current directory
 
 ```bash
