@@ -44,13 +44,18 @@ git push -d origin branch_name | git push -d <remote_name> <branch_name>
 3. Run the following commands in Terminal:
 
 ```bash
-- git rm -r --cached .
-- git add .
-- git commit -m "chore: add node_modules config to gitignore file"
-- git push
+1. git rm -r --cached .
+2. git add .
+3. git commit -m "chore: add node_modules config to gitignore file"
+4. git push
 ```
 
 
+## [Git] - Amend the previous log message
+
+```
+git commit --amend -m "Your new log message"
+```
 
 ## [Git] - Print out log infomation in one line
 
