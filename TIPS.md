@@ -99,7 +99,7 @@ grep -rn search-string search-dir
 
 
 
-## [Pm2] - Most frquently used commands
+## [PM2] - Most frquently used commands
 
 PM2 is a daemon process manager that will help you manage and keep your application online 24/7. For more information, please also refer to: https://pm2.keymetrics.io/
 
@@ -134,6 +134,13 @@ Restart application: pm2 restart www
 Restart all the applications: pm2 restart all
 ```
 
+
+## [PM2] - Difference between `pm2 save` and `pm2 list`
+```sh
+pm2 save: Saves the current process list for restoration after a reboot.
+
+pm2 list: Displays all running processes managed by PM2.
+```
 
 
 ## [Curl] - Most frequently used commands
@@ -222,11 +229,6 @@ ctrl a + d
 grep "oldString" -rl dist-h5/dist | xargs sed -i "" -e "s/oldString/newString/g" 
 ```
 
-## [Mongo] - login to mongoDB with shell
-```bash
-mongo host:port/dbname -u username -p password
-```
-
 ## [Linux] - check linux & mac processes, and then kill a specific process
 ```bash
 ps -ef | grep processName
@@ -240,4 +242,9 @@ nvm list-remote
 
 # install a specific node version
 nvm install <version> # like: 14.17.6
+```
+
+## [Mongo] - login to mongoDB with shell
+```bash
+mongo host:port/dbname -u username -p password
 ```
