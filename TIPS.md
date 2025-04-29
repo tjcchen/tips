@@ -202,10 +202,13 @@ open -n /Applications/Google\ Chrome.app/ --args --disable-web-security --user-d
 
 ## [Linux] - Check and close a process, take node as an example
 ```bash
-# eg: find exist node process
+# find exist node process
 ps aux | grep node
 
-# kill process by ID( second from the left )
+# or if we clearly know a specific port is used, then we need to find the process id first, take 3000 port as an example
+lsof -i :3000
+
+# kill process by PID(second from the left)
 kill -9 PROCESS_ID
 ```
 
