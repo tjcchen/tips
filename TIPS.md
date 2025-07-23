@@ -195,7 +195,7 @@ vi ~/.bash_profile
 alias ll='ls -l'
 ```
 
-## [Linus] - Check a folder size on Linux
+## [Linux] - Check a folder size on Linux
 ```bash
 # du: disk usage, -s: summary, h: human-readable
 du -sh folder-name
