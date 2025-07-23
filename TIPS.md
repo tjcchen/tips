@@ -195,6 +195,12 @@ vi ~/.bash_profile
 alias ll='ls -l'
 ```
 
+## [Linus] - Check a folder size on Linux
+```bash
+# du: disk usage, -s: summary, h: human-readable
+du -sh folder-name
+```
+
 ## [Linux] - Close Chrome CORS
 ```
 open -n /Applications/Google\ Chrome.app/ --args --disable-web-security --user-data-dir=/Users/chen/Documents/MyChromeDevUserData/
