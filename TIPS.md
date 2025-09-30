@@ -87,6 +87,19 @@ git remote set-url origin new.git.url/here
 # Edit .git/config and change the URLs there.
 ```
 
+## [Git] - Update git commit information in current repo
+```
+# Update git commit information in current repo
+git config user.name "tjcchen"
+git config user.email "tjcchen.engineer@gmail.com"
+
+# Check local and global commit user and email
+git config user.name
+git config user.email
+git config --global user.name
+git config --global user.email
+```
+
 ## [Bash] - Find resources in current directory
 
 ```bash
