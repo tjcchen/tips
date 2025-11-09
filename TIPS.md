@@ -79,7 +79,7 @@ git checkout c5f567~1 -- file1/to/restore file2/to/restore
 ```
 
 ## [Git] - Update remote origin
-```
+```bash
 # solution 1: update remote origin
 git remote set-url origin new.git.url/here
 
@@ -88,7 +88,7 @@ git remote set-url origin new.git.url/here
 ```
 
 ## [Git] - Update git commit information in current repo
-```
+```bash
 # Update git commit information in current repo
 git config user.name "tjcchen"
 git config user.email "tjcchen.engineer@gmail.com"
@@ -98,6 +98,19 @@ git config user.name
 git config user.email
 git config --global user.name
 git config --global user.email
+```
+
+## [Git] - Switch between different github accounts in local machine
+```bash
+Personal：
+ssh-add -D                    # remove all identities (SSH keys) from your SSH authentication agent
+ssh-add ~/.ssh/id_ed25519     # add your personal account
+ssh -T git@github.com         # tess your SSH connection to GitHub
+
+Company：
+ssh-add -D                           # remove all identities (SSH keys) from your SSH authentication agent
+ssh-add ~/.ssh/id_ed25519_work       # add your company account
+ssh -T git@github.com                # test your SSH connection to GitHub
 ```
 
 ## [Bash] - Find resources in current directory
